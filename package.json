@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "echo \"----->>>>>> Default webpack will grab entry file from src/index.js and output to dist/main.js\" && webpack"
+    "build": "webpack --config webpack.config.js"
   },
   "keywords": [],
   "author": "",
