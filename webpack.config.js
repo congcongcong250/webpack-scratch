@@ -12,6 +12,12 @@ module.exports = {
                 test: /\.css$/,
                 // Order matters!!!!!!!
                 use: [ 'style-loader', 'css-loader']
+            },
+            {
+                test: /\.(png|svg|jpg|gif)$/,
+                use: [
+                  'file-loader',
+                ],
             }
         ]
     }
