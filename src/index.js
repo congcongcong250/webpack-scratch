@@ -6,7 +6,7 @@ function component() {
 
   element.innerHTML = _.join(['Hello', 'Webpack'], ' ');
   printFn();  
-  document.addEventListener('click', function(){printFn('Click doc.')});
+  document.addEventListener('click', function(){printFn('Click on document.')});
   return element;
 }
 
