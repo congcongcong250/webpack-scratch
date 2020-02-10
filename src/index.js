@@ -5,7 +5,7 @@ function component() {
 
   element.innerHTML = _.join(['Hello', 'Webpack'], ' ');
   document.addEventListener('click', () => {
-    import(/* webpackChunkName: 'goBoom' */'./newModule').then(({default: boom}) => {
+    import(/* webpackChunkName: 'goBoom', webpackPrefetch: true */'./newModule').then(({default: boom}) => {
       boom('main');
       setTimeout(()=> boom('end'),1000);
     }).catch(e => console.log(e));
