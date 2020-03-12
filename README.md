@@ -9,5 +9,6 @@ CRA spoiled me pretty too well.
 
 Therefore, too get a advanced knowledge about web bundling, here I create this repo as a work through for Webpack offical guide.
 
+**Detailed explanation and thoughts in commits comments**
 
 
